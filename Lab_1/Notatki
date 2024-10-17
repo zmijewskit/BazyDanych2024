@@ -1,0 +1,11 @@
+1. git bash here tam gdzie chemy sklonować repozytorium
+2. Konfiguracja menedzera poświadczeń
+3. git clone https://link.do.repo
+4. cd nazwaRepo
+5. 
+git config --local user.name akowalski
+git config --local user.email akowalski@gmail.com
+6. dodaj pliki do folderu
+7. git add * 
+8. git commit -m "nazwa_commita"
+9. git push -u origin master
