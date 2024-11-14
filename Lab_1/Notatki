@@ -1,3 +1,4 @@
+## Jak pobrać zdalne repozytorium
 1. git bash here tam gdzie chemy sklonować repozytorium
 2. Konfiguracja menedzera poświadczeń
 3. git clone https://link.do.repo
@@ -9,3 +10,15 @@ git config --local user.email akowalski@gmail.com
 7. git add * 
 8. git commit -m "nazwa_commita"
 9. git push -u origin master
+
+## Jak zaktualizować lokalne repozytorium.
+1. Git remote -v
+Powinno się pokazać
+```
+origin  https://github.com/uzytkownik/nazwa-repozytorium.git (fetch)
+origin  https://github.com/uzytkownik/nazwa-repozytorium.git (push)
+```
+2. Git remote add origin
+3. Git fetch origin
+4. Git pull origin nazwa-gałęzi
+
